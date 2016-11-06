@@ -1,0 +1,72 @@
+.ng-taggable {
+	width: 100%;
+	height: inherit;
+	min-height: 34px;
+}
+.ng-taggable.form-control {
+	padding: 6px 1px;
+}
+.ng-taggable .btn {
+	float: left;
+	line-height: 1.6;
+	margin: -4px 2px 7px;
+    padding: 4px 6px;
+}
+.ng-taggable > .text-danger {
+	color: red;
+	display: inline-block;
+	position: relative;
+}
+.ng-taggable > .text-danger:after {
+	content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+	font-size: 0.6em;
+	font-weight: 700;
+	font-family: Times New Roman, Serif;
+	color: red;
+	padding: 0 0 0 30px;
+	width: 100%;
+	position: absolute;
+	top: 17px;
+	left: -24px;
+	overflow: hidden;
+}
+.ng-taggable .close {
+	border-radius: 50%;
+	font-size: 15px;
+	height: 14px;
+    line-height: 0.8;
+    margin-left: 5px;
+	margin-top: 2px;
+	outline: none;
+	width: 14px;
+}
+.ng-taggable .close:hover {
+	background-color: #777;
+	color: red;
+	text-shadow: none;
+}
+.ng-taggable span.input__max {
+	display: block;
+    min-width: 200px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.ng-taggable input {
+	border: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 21px;
+	min-width: 15%;
+	outline: none;
+	padding: 4px;
+	width: 100%;
+}
+
+.ng-taggable > .editable-click, a.editable-click {
+	border: 1px solid #ccc;
+}
+
+.ng-taggable > .editable-wrap {
+	float:left;
+}

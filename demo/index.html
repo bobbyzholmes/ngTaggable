@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ng taggable demo</title>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="/bower_components/angular-xeditable/dist/css/xeditable.css">
+	<link rel="stylesheet" href="/custom/ng-taggable.css">
+
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+	<script src="/custom/ng-taggable.js"></script>
+	<script src="/custom/app.js"></script>
+</head>
+<body ng-app="app">
+	<br><br>
+	<div class="container" ng-controller="demoCtrl as demo">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="">Taggable Field</label>
+					<div type="text" class="ng-taggable form-control" ng-model='tags' placeholder="Enter Tags" validate-as="email"></div>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="">Taggable Field</label>
+					<div type="text" class="ng-taggable form-control" ng-model='emails' placeholder="Enter Email Address" ></div>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+		</div>
+		<br><br>
+		
+	</div>
+</body>
+</html>
